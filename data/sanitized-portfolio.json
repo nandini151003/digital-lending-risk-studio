@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "reporting_date": "2026-07-31",
+    "data_class": "deterministic synthetic demonstration",
+    "currency": "INR",
+    "customer_count": 600
+  },
+  "portfolio": {
+    "applications": 600,
+    "approvals": 384,
+    "disbursals": 312,
+    "approval_rate_pct": 64.0,
+    "approval_to_disbursal_pct": 81.2,
+    "outstanding_inr_lakh": 160.0,
+    "par_30_pct": 62.3,
+    "par_90_pct": 15.0,
+    "fpd_pct": 23.1
+  },
+  "risk_distribution": [
+    { "band": "LOW", "customers": 208, "share_pct": 34.7 },
+    { "band": "MEDIUM", "customers": 123, "share_pct": 20.5 },
+    { "band": "HIGH", "customers": 177, "share_pct": 29.5 },
+    { "band": "VERY_HIGH", "customers": 92, "share_pct": 15.3 }
+  ],
+  "alert_segments": [
+    { "segment": "CRITICAL", "accounts": 41, "exposure_inr_lakh": 46.0 },
+    { "segment": "HIGH", "accounts": 59, "exposure_inr_lakh": 67.5 },
+    { "segment": "WATCH", "accounts": 12, "exposure_inr_lakh": 10.6 },
+    { "segment": "STABLE", "accounts": 49, "exposure_inr_lakh": 39.7 }
+  ]
+}
